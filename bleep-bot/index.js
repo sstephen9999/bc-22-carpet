@@ -47,7 +47,6 @@ const client = new Client(
 client.login(process.env.DISCORD_TOKEN);
 
 
-console.log(`Listening at port ${port}`);
 
 client.on('ready', () => {
 
