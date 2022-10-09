@@ -6,7 +6,7 @@ type LayoutProps = {
 
 const Layout = ({ children }: LayoutProps) => {
     return (
-        <div className="content">
+        <div>
             <Navbar />
             {children}
         </div>

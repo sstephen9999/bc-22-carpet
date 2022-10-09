@@ -6,11 +6,11 @@ const Navbar = () => {
         <div>
             <nav>
                 <div className="logo">
-                    <h1>bleep.gg</h1>
+                    <Image src="/logo.png" alt="bleep.gg" width={655/4} height={188/4}/>
                 </div>
-                <Link href="/"><a>About</a></Link>
-                <Link href="/"><a>Features</a></Link>
-                <Link href="/"><a>Download</a></Link>
+                <Link href="/"><a className="font-switzer">About</a></Link>
+                <Link href="/"><a className="font-switzer">Features</a></Link>
+                <Link href="/"><a className="font-switzer">Get it now</a></Link>
             </nav>
         </div>
     );
