@@ -1,0 +1,6 @@
+{
+    "eslint.execArgv": null,
+    "eslint.workingDirectories": [
+        "./site/bleep-gg"
+    ]
+}
