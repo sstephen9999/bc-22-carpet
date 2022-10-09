@@ -35,7 +35,6 @@
     padding-bottom: 10vh;
     display: flex;
 }
-
 .section-info1 .content {
     font-family: "Rubik", sans-serif;
     font-size: 2rem;
@@ -50,7 +49,6 @@
     position: relative;
     flex-grow: 1;
 }
-
 .section-info1 .image-holder Image {
     max-height: 10rem;
     width: auto;
@@ -60,8 +58,56 @@
 .section-info2 {
     padding-top: 10vh;
     padding-bottom: 10vh;
+    display: flex;
+}
+.section-info2 .image-holder {
+    position: relative;
+    flex-grow: 1;
+}
+.section-info2 .image-holder Image {
+    max-height: 10rem;
+    width: auto;
     height: auto;
 }
+.section-info2 .content {
+    font-family: "Rubik", sans-serif;
+    font-size: 2rem;
+    width: 60%;
+    padding: 2rem;
+}
+.section-info2 .content-link {
+    color: var(--dark);
+    text-decoration: underline;
+}
+
+.section-info3 {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    display: flex;
+}
+.section-info3 .title {
+    font-size: 3.5rem;
+}
+.section-info3 .content {
+    font-family: "Rubik", sans-serif;
+    font-size: 2rem;
+    padding: 2rem;
+}
+.section-info3 .content-link {
+    color: var(--dark);
+    text-decoration: underline;
+}
+.section-info3 .image-holder {
+    position: relative;
+    flex-grow: 1;
+    background-color: blue;
+}
+.section-info3 .image-holder Image {
+    max-height: 10rem;
+    width: auto;
+    height: auto;
+}
+
 
 
 .w-full {
@@ -88,7 +134,7 @@
 .font-switzer {
     font-family: 'Switzer-Black', serif;
 }
-.font-Rubik {
+.font-rubik {
     font-family: 'Rubik', sans-serif;
 }
 
@@ -97,7 +143,6 @@ body {
     color: var(--dark);
 }
 .color-div{
-    width: 100%;
     box-sizing: border-box;
     margin: 0 !important;
     padding-left: 5vw;
@@ -106,14 +151,15 @@ body {
 
 nav {
     background-color: var(--light);
-    padding: 2vw 5vw 2vw 5vw;
+    padding: 1vw 2vw 1vw 2vw;
     display: flex;
     justify-content: left;
     align-items: center;
     border-bottom: 0px solid #ddd;
     position: fixed;
     top: 0;
-    width: 100%
+    width: 100vw;
+    z-index: 100;
 }
 nav a {
     color: var(--dark);
