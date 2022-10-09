@@ -8,17 +8,50 @@ const Home: NextPage = () => {
     return (
         <>
             <Title/>
-            <section className="color-div w-full bg-pink section-info1">
-                <div className="content font-dark">
-                    <p><a className="content-link" href="https://www.adl.org/online-hate-2021">41% of Americans</a> have experienced some type of online harassment. With how much we live online, that number is far too high. Bleep keeps your online spaces free of hate speech.</p>
+            <section className="color-div w-full bg-pink section-info">
+                <div id="about" className="anchor"></div>
+                <div className="content info font-dark">
+                    <p><a className="content-link" href="https://www.adl.org/online-hate-2021">41% of Americans</a> have experienced some type of online harassment. With how much we live online, that number is far too high. bleep.gg keeps your online spaces free of hate speech.</p>
+                    <p>bleep.gg gives you autonomy over your online spaces. Regardless of the platform&apos;s policy on hate speech, you set your own boundaries on what you want to see.</p>
                 </div>
                 <div className="image-holder">
                     <Image className="image" src="/lost_online.svg" alt="" layout="fill"/>
                 </div>
             </section>
 
-            <section className="color-div w-full bg-red section-info2">
+            <section className="color-div w-full bg-red section-info">
+                <div id="features" className="anchor"></div>
+                <div className="image-holder">
+                    <Image className="image" src="/ai_art.svg" alt="" layout="fill"/>
+                </div>
+                <div className="content info font-light">
+                    <p>bleep.gg runs on a GPT-3 language processing model. (that&apos;s AI!) Even if the message doesn&apos;t contain a specific keyword, bleep.gg reads and understands the message as a whole.</p>
+                </div>
+            </section>
 
+            <section className="color-div w-full bg-dark section-info download">
+                <div id="getitnow" className="anchor"></div>
+                <div className="content font-light">
+                    <div className="image-holder2">
+                        <a href="https://discord.com/api/oauth2/authorize?client_id=1028349063986421771&amp;permissions=8&amp;scope=bot">
+                            <Image className="image" src="/discord.png" alt="Add to Discord" layout={"fill"} objectFit={"contain"}/>
+                        </a>
+                    </div>
+                    <p className="download-text">The bleep.gg Discord bot automatically deletes messages promoting hate speech. It also has a chatbot, answering any questions regarding hate speech.</p>
+                </div>
+                <div className="content font-light">
+                    <div className="image-holder2">
+                        <Image className="image" src="/chrome.png" alt="Add to Chrome" layout={"fill"} objectFit={"contain"}/>
+                    </div>
+                    <p className="download-text">The Chrome extension adds a warning to comments on social media platforms that promote hate speech.</p>
+                    <p className="download-text">Currently available on Reddit. Coming to Facebook, Twitter, and Instagram!</p>
+                </div>
+            </section>
+
+            <section className="color-div w-full bg-light">
+                <div className="download-text footer content font-dark font-Rubik">
+                    <p>Build with &lt;3 by Brandon, Stephen, and Philip</p>
+                </div>
             </section>
         </>
     )
