@@ -58,9 +58,9 @@ export default function Home() {
               bleep.gg keeps your online spaces free of hate speech.
             </h1>
             <h1 class="text-3xl mt-8">
-              bleep.gg runs on a GPT-3 language processing model. (that's AI!) Even
-              if the message doesn't contain a specific keyword, bleep reads and
-              understands the message as a whole.
+              bleep.gg runs on a GPT-3 language processing model. (that's AI!)
+              Even if the message doesn't contain a specific keyword, bleep
+              reads and understands the message as a whole.
             </h1>
           </section>
           <section class="mt-8" id="features">
