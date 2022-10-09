@@ -168,9 +168,7 @@ app.listen(port, () => {
 
     })
 
-    app.get("/", (req, res) => {
-        res.send("Logged in as " + client.user.tag);
-    });
+  
 
 
 })
