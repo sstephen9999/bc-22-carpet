@@ -1,12 +1,13 @@
 import { HandlerContext } from "$fresh/server.ts";
-import { config } from "https://deno.land/x/dotenv/mod.ts";
+import { config } from "https://deno.land/std/dotenv/mod.ts";
 import "https://deno.land/x/xhr@0.1.0/mod.ts";
 import { Configuration, OpenAIApi } from "https://esm.sh/openai@3.0.0";
 
 const configuration = new Configuration({
-  apiKey: config().OPENAI_API_KEY,
+  apiKey: (await config()).OPENAI_API_KEY,
 });
 const openai = new OpenAIApi(configuration);
+
 
 export const handler = async (
   _req: Request,
