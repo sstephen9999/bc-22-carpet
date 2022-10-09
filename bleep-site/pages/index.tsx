@@ -35,6 +35,14 @@ const Home: NextPage = () => {
                 <div id="getitnow" className="anchor"></div>
                 <div className="content2 font-light">
                     <div className="image-holder2">
+                        <a href="https://discord.gg/WHF8CNvR">
+                            <Image className="image" src="/discordtry.png" alt="Add to Discord" layout={"fill"} objectFit={"contain"}/>
+                        </a>
+                    </div>
+                    <p className="download-text">Want to see bleep.gg in action? Join our server and test bleep&apos;s limits, ask some questions, and try bleep.gg out!</p>
+                </div>
+                <div className="content2 font-light">
+                    <div className="image-holder2">
                         <a href="https://discord.com/api/oauth2/authorize?client_id=1028349063986421771&amp;permissions=8&amp;scope=bot">
                             <Image className="image" src="/discord.png" alt="Add to Discord" layout={"fill"} objectFit={"contain"}/>
                         </a>

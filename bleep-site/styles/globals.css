@@ -52,6 +52,7 @@
 }
 .section-info .content2 {
     font-family: "Rubik", sans-serif;
+    width: 50%;
     font-size: 2rem;
     padding: 2rem;   
 }
