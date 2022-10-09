@@ -26,25 +26,20 @@ const Home: NextPage = () => {
                 </div>
                 <div className="content info font-light">
                     <p>bleep.gg runs on a GPT-3 language processing model. (that&apos;s AI!) Even if the message doesn&apos;t contain a specific keyword, bleep.gg reads and understands the message as a whole.</p>
+                    <p>When bleep.gg detects a message promoting hate speech, it will automatically delete it. Users are notified, and admins can review the message.</p>
+                    <p>If you have a question, just ask bleep.gg!</p>
                 </div>
             </section>
 
             <section className="color-div w-full bg-dark section-info download">
                 <div id="getitnow" className="anchor"></div>
-                <div className="content font-light">
+                <div className="content2 font-light">
                     <div className="image-holder2">
                         <a href="https://discord.com/api/oauth2/authorize?client_id=1028349063986421771&amp;permissions=8&amp;scope=bot">
                             <Image className="image" src="/discord.png" alt="Add to Discord" layout={"fill"} objectFit={"contain"}/>
                         </a>
                     </div>
                     <p className="download-text">The bleep.gg Discord bot automatically deletes messages promoting hate speech. It also has a chatbot, answering any questions regarding hate speech.</p>
-                </div>
-                <div className="content font-light">
-                    <div className="image-holder2">
-                        <Image className="image" src="/chrome.png" alt="Add to Chrome" layout={"fill"} objectFit={"contain"}/>
-                    </div>
-                    <p className="download-text">The Chrome extension adds a warning to comments on social media platforms that promote hate speech.</p>
-                    <p className="download-text">Currently available on Reddit. Coming to Facebook, Twitter, and Instagram!</p>
                 </div>
             </section>
 
