@@ -18,19 +18,7 @@ const Home: NextPage = () => {
             </section>
 
             <section className="color-div w-full bg-red section-info2">
-                <div className="image-holder">
-                    <Image className="image" src="/ai_robot.svg" alt="" layout="fill"/>
-                </div>
-                <div className="content font-light">
-                    <p>Bleep runs on a GPT-3 language processing model. (that&apos;s AI!) Even if the message doesn&apos;t contain a specific keyword, Bleep reads and understands the message as a whole.</p>
-                </div>
-            </section>
 
-            <section className="color-div w-full bg-dark section-info3">
-                <h1 className="title font-rubik font-light">Available on:</h1>
-                <div className="image-holder">
-                    <Image className="image" src="/discord.svg" alt="" layout="fill"/>
-                </div>
             </section>
         </>
     )
