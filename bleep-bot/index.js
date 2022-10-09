@@ -51,10 +51,12 @@ const app = express();
 const port = 8080;
 
 app.listen(port, () => {
-
-
+    console.log(`Listening at port ${port}`);
 
     client.on('ready', () => {
+
+        console.log(`Logged in as ${client.user.tag}!`);
+
         const commands = [
             new SlashCommandBuilder().setName('add-chat-channel').setDescription('Add chat bot channel.').setDMPermission(false).setDefaultMemberPermissions(0).addStringOption(option => option.setName('channel-id').setDescription('Channel ID')),
             new SlashCommandBuilder().setName('remove-chat-channel').setDescription('Remove chat bot channel.').setDMPermission(false).setDefaultMemberPermissions(0).addStringOption(option => option.setName('channel-id').setDescription('Channel ID')),
